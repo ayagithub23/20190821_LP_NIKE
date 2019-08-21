@@ -1,0 +1,38 @@
+@charset "big5";
+/* CSS Document */
+
+/*浮層嘿嘿*/
+.blackBox { clear: both;}
+.blackBox_play { z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgba(34,34,34,0.75);}
+
+/*浮層基本*/
+.blackBox .box .button { border-top: 1px solid #d6d6d6; text-align: center; font-size: 1.25rem; line-height: 3.5rem; font-weight: bold;}
+.blackBox .box .button a{ text-decoration: none;}
+.blackBox .box .but-close { clear: both; width: 100%;}
+.blackBox .box .but-close a { display: block; color: #333;}
+.blackBox .box h3 span.close { position: absolute; top: 6px; right: 5px; display: block; border: 2px solid #fff; border-radius: 5px; width: 63px; height: 33px; font-size: 1rem; line-height: 2rem; text-align: center;}
+.blackBox .box h3 span.close a { display: inline-block; width: 100%; height: 100%; color: #fff; text-decoration: none;}
+
+/*通知浮層*/
+.agreeArea { position: relative; top: 5%; margin: 0 auto 30px; width: 94%; max-width: 500px; font-family: "Microsoft JhengHei", "微軟正黑體", Arial, sans-serif, "Century Gothic"; font-weight: bold;}
+.agreeArea .box { border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); background-color: #fff; overflow: hidden;}
+.agreeArea .box h3 { padding: 0; margin: 0; height: 3rem; font-size: 1.25rem; font-weight: 800; line-height: 3rem; text-align: center; color: #fff; background-color: #5a39c6;}
+.agreeArea .box p { margin: 0 auto; margin-top: 1rem; padding: 0px; width: 86%; overflow:hidden;}
+.agreeArea .box p b { display: block; padding-bottom: 0px;font: bold 18px/36px 微軟正黑體;}
+.agreeArea .box p span { }
+.agreeArea .box .qrcodeimg { text-align: center;}
+.agreeArea .box .qrcodeimg a { color: #006afe;}
+.agreeArea .box .qrcodeimg img { width: 100%; height: auto;}
+.agreeArea .box .agree_table table { margin: 20px auto; border-collapse: collapse; width: 90%; text-align: center;}
+.agreeArea .box .agree_table th { padding: 8px; border: 1px solid #CCC; width: 33%; background: #CCC; font-size: 0.9em; line-height: 1.7em; }
+.agreeArea .box .agree_table td { padding: 8px; border: 1px solid #CCC; font-size: 0.9em; text-align: center; line-height: 1.7em;}
+.agreeArea .box .table_style2 th { border: 0px; text-align: right;}
+.agreeArea .box .table_style2 td { border: 0px; text-align: right;}
+.agreeArea .box .agree_table .A { font-weight: 800; font-size: 20px;}
+.agreeArea .box .agree_table .A .A1{ text-align: left;}
+.agreeArea .box .agree_table .B .B1{ text-align: left;}
+.agreeArea .box .agree_table .B .B1 span{ padding: 0 10px; color: #fff; background-color: #1cadbe; border-radius: 1em; display: inline-block; text-align: center;}
+.agreeArea .box .agree_table .tableline { height: 20px;}
+.agreeArea .box .agree_table .tableline span{ display: block; height: 1px; border-top: 1px dotted #aaa;}
+.agreeArea .box .agree_table .C .C1{ text-align: left;}
+.agreeArea .box .agree_table .C .C1 span{ padding: 0 10px; color: #fff; background-color: rgba(153,153,153,0.8); border-radius: 1em; display: inline-block; text-align: left}

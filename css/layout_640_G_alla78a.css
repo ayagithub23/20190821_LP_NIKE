@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/** 基本 **/
+body { margin:0px; padding:0px;}
+
+/*全BOX版面
+.WRAPPER {position:relative; display:inline-block; margin:0; padding:0; width:100%; background-color:#f5f5f5; }
+.WRAPPER .mmainArea { position:relative; margin:0px auto; padding:0px; width:100%; max-width:640px; z-index:1; font-family:"微軟正黑體","Microsoft JhengHei", Arial, Helvetica;background-color: #fff;}
+.mmainArea img { border:0px; vertical-align:top;}
+.mmainArea a { text-decoration:none;} */	
+
+/*版頭*/
+.mmainArea .hot-sale { margin:0px; padding:0px 0px 0px 0px; width:100%;}
+.mmainArea .hot-sale img { width:100%; height:auto;}
+.mmainArea .hot-sale2 { margin:0px; padding:0px 0px 0px 0px; width:100%;}
+.mmainArea .hot-sale2 img { width:50%; height:auto;}
+
+
+/** 公版模組layout_640_2xn_G01 **/
+.layout_640_2xn_G01  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_2xn_G01 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_2xn_G01 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_2xn_G01 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_2xn_G01 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_2xn_G01 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0;  width:49%; height:auto; border: 0px; background-color:#FFF;}
+.layout_640_2xn_G01 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_2xn_G01 ul li:nth-child(odd) { margin-left:0%;}
+.layout_640_2xn_G01 ul li:nth-child(even) { margin-right:0%;}
+.layout_640_2xn_G01 ul li:hover,
+.layout_640_2xn_G01 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_2xn_G01 ul li a { display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_2xn_G01 ul li a .imgArea { }
+.layout_640_2xn_G01 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_2xn_G01 ul li a h3 { position: absolute; top:0; right:0; margin:0; padding:5px 0 0; -webkit-box-sizing:content-box; box-sizing:content-box; width:34px; height:36px; font-size:13px; line-height:15px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#78ccdd;}
+.layout_640_2xn_G01 ul li a h3 span { display:block; font-size:13px; text-align:center;}
+.layout_640_2xn_G01 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 22px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #000;}
+.layout_640_2xn_G01 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #000;}
+.layout_640_2xn_G01 ul li a h4 br { display:none;}
+.layout_640_2xn_G01 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#d92670;}
+.layout_640_2xn_G01 ul li a p del { padding-right:2px; font-size:14px; font-family: Century Gothic; color:#5e5e5e;}
+.layout_640_2xn_G01 ul li a p b { font-size:13px; letter-spacing:-1px;}
+.layout_640_2xn_G01 ul li a p .money { font-size:14px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_2xn_G01 ul li a p .Price { font-size:24px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_2xn_G01 ul li a p small { font-size:14px; }
+.layout_640_2xn_G01 ul li a .BUY { position:relative; margin:5%; padding:0; border-radius:4px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#000; }
+.layout_640_2xn_G01 ul li a .BUY span { z-index:1; position:relative;}
+.layout_640_2xn_G01 ul li a .BUY span:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+/** 公版模組layout_640_2xn_G02 **/
+.layout_640_2xn_G02  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_2xn_G02 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_2xn_G02 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_2xn_G02 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_2xn_G02 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_2xn_G02 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0;  width:49%; height:auto; border: 0px; background-color:#FFF;}
+.layout_640_2xn_G02 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_2xn_G02 ul li:nth-child(odd) { margin-left:0%;}
+.layout_640_2xn_G02 ul li:nth-child(even) { margin-right:0%;}
+.layout_640_2xn_G02 ul li:hover,
+.layout_640_2xn_G02 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_2xn_G02 ul li a { display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_2xn_G02 ul li a .imgArea { position:relative; }
+.layout_640_2xn_G02 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_2xn_G02 ul li a .imgArea:before { content:""; position: absolute; bottom:-45px; left:5%; width:90%; height:1px; background-color:#f2f2f2;}
+.layout_640_2xn_G02 ul li a h3 { position: absolute; top:0; right:0; margin:0; padding:3px 0 0; width:38px; height:38px; font-size:13px; line-height:15px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#FF53AC;}
+.layout_640_2xn_G02 ul li a h3 span { display:block; text-align:center;}
+.layout_640_2xn_G02 ul li a h4 { position: relative; margin:0 0 5px; padding:0 5%; width:100%; height: 22px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #000;}
+.layout_640_2xn_G02 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px; color: #000;}
+.layout_640_2xn_G02 ul li a h4 br { display:none;}
+.layout_640_2xn_G02 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#d92670;}
+.layout_640_2xn_G02 ul li a p del { padding-right:2px; font-size:14px; font-family: Century Gothic; color:#5e5e5e;}
+.layout_640_2xn_G02 ul li a p b { font-size:13px; letter-spacing:-1px;}
+.layout_640_2xn_G02 ul li a p .money { font-size:14px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_2xn_G02 ul li a p .Price { font-size:24px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_2xn_G02 ul li a p small { font-size:14px; }
+.layout_640_2xn_G02 ul li a .BUY { clear:both; position:relative; margin:5%; padding:0; border-radius:30px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#FF53AC; }
+.layout_640_2xn_G02 ul li a .BUY span { z-index:1; position:relative;}
+.layout_640_2xn_G02 ul li a .BUY span:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+
+/** 公版模組layout_640_2xn_G03 **/
+.layout_640_2xn_G03  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_2xn_G03 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_2xn_G03 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_2xn_G03 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_2xn_G03 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_2xn_G03 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0;  width:49%; height:auto; border: 0px; background-color:#FFF;}
+.layout_640_2xn_G03 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_2xn_G03 ul li:nth-child(odd) { margin-left:0%;}
+.layout_640_2xn_G03 ul li:nth-child(even) { margin-right:0%;}
+.layout_640_2xn_G03 ul li:hover,
+.layout_640_2xn_G03 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_2xn_G03 ul li a { position: relative; display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_2xn_G03 ul li a .imgArea { }
+.layout_640_2xn_G03 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_2xn_G03 ul li a h3 { position: absolute; bottom:0; left:0; right:0; margin:5% 20% 5% 5%; padding:0 15% 0 0; border-radius:44px; border:1px solid #ab2ddb; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px; color:#ab2ddb;}
+.layout_640_2xn_G03 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 22px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #000;}
+.layout_640_2xn_G03 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #000;}
+.layout_640_2xn_G03 ul li a h4 br { display:none;}
+.layout_640_2xn_G03 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#d92670;}
+.layout_640_2xn_G03 ul li a p del { padding-right:2px; font-size:14px; font-family: Century Gothic; color:#5e5e5e;}
+.layout_640_2xn_G03 ul li a p b { font-size:13px; letter-spacing:-1px;}
+.layout_640_2xn_G03 ul li a p .money { font-size:14px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_2xn_G03 ul li a p .Price { font-size:24px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_2xn_G03 ul li a p small { font-size:14px; }
+.layout_640_2xn_G03 ul li a .BUY { position:relative; margin:5% 5% 5% 60%; padding:0; border-radius:44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#ab2ddb; }
+.layout_640_2xn_G03 ul li a .BUY span { display:none;}
+.layout_640_2xn_G03 ul li a .BUY:before  { content: "搶購"; color:#fff;}
+.layout_640_2xn_G03 ul li a .BUY:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:3px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+/** 公版模組layout_640_2xn_G04 **/
+.layout_640_2xn_G04  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_2xn_G04 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_2xn_G04 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_2xn_G04 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_2xn_G04 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_2xn_G04 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0;  width:49%; height:auto; border: 0px; background-color:#000022;}
+.layout_640_2xn_G04 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_2xn_G04 ul li:nth-child(odd) { margin-left:0%;}
+.layout_640_2xn_G04 ul li:nth-child(even) { margin-right:0%;}
+.layout_640_2xn_G04 ul li:hover,
+.layout_640_2xn_G04 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_2xn_G04 ul li a { z-index: 0; position: relative; display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_2xn_G04 ul li a .imgArea { }
+.layout_640_2xn_G04 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_2xn_G04 ul li a h3 { position: absolute; bottom:0; left:0; right:0; margin:5% 55% 5% 5%; padding:0; border-radius:44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px; color:#fff; background-color:#ab2ddb;}
+.layout_640_2xn_G04 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 22px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #fff;}
+.layout_640_2xn_G04 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:16px; line-height:20px;;  color: #ffff00;}
+.layout_640_2xn_G04 ul li a h4 br { display:none;}
+.layout_640_2xn_G04 ul li a h5 { position: relative; margin:0; padding:0 5%; width:100%; height: 32px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #fff;}
+.layout_640_2xn_G04 ul li a p { position: relative; margin:0; padding:0 12% 5% 5%; line-height:23px; color:#fff; text-align:right;}
+.layout_640_2xn_G04 ul li a p del { display:block; margin-bottom: 5%;font-size:14px; font-family: Century Gothic; color:#b3b3b3;}
+.layout_640_2xn_G04 ul li a p b { display:none; font-size:13px; letter-spacing:-1px;}
+.layout_640_2xn_G04 ul li a p .money { font-size:14px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_2xn_G04 ul li a p .Price { font-size:24px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_2xn_G04 ul li a p small { font-size:14px; }
+.layout_640_2xn_G04 ul li a p:after  { content: ""; z-index: -1; position: absolute; bottom:0; right:0; display:block; margin:5% 5% 5% 60%; padding:0; border-radius:44px; border:1px solid #ab2ddb; width:80%; height:28px;}
+.layout_640_2xn_G04 ul li a .BUY { display:none; position:relative; margin:5% 5% 5% 60%; padding:0; border-radius:44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#ab2ddb; }
+.layout_640_2xn_G04 ul li a .BUY span { display:none;}
+.layout_640_2xn_G04 ul li a .BUY:before  { content: "搶購"; color:#fff;}
+.layout_640_2xn_G04 ul li a .BUY:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+/** 公版模組layout_640_2xn_G05 **/
+.layout_640_2xn_G05  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_2xn_G05 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_2xn_G05 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_2xn_G05 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_2xn_G05 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_2xn_G05 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0;  width:49%; height:auto; border: 0px; background-color:#000022;}
+.layout_640_2xn_G05 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_2xn_G05 ul li:nth-child(odd) { margin-left:0%;}
+.layout_640_2xn_G05 ul li:nth-child(even) { margin-right:0%;}
+.layout_640_2xn_G05 ul li:hover,
+.layout_640_2xn_G05 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_2xn_G05 ul li a { z-index: 0; position: relative; display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_2xn_G05 ul li a .imgArea { }
+.layout_640_2xn_G05 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_2xn_G05 ul li a h3 { position: absolute; bottom:0; left:0; right:0; margin:5% 40% 5% 5%; padding:0; border-radius:44px 0 0 44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px; color:#fff; background-color:#ab2ddb;}
+.layout_640_2xn_G05 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 22px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #fff;}
+.layout_640_2xn_G05 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #fff;}
+.layout_640_2xn_G05 ul li a h4 br { display:none;}
+.layout_640_2xn_G05 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#ff0;}
+.layout_640_2xn_G05 ul li a p del { padding-right:2px; font-size:14px; font-family: Century Gothic; color:#b3b3b3;}
+.layout_640_2xn_G05 ul li a p b { font-size:13px; letter-spacing:-1px;}
+.layout_640_2xn_G05 ul li a p .money { font-size:14px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_2xn_G05 ul li a p .Price { font-size:24px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_2xn_G05 ul li a p small { font-size:14px; }
+.layout_640_2xn_G05 ul li a .BUY { position:relative; margin:5% 5% 5% 60%; padding:0; border-radius:0 44px 44px 0; border-left:1px solid #000022; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#ab2ddb;}
+.layout_640_2xn_G05 ul li a .BUY span { display:none;}
+.layout_640_2xn_G05 ul li a .BUY:before  { content: "搶購"; color:#fff;}
+.layout_640_2xn_G05 ul li a .BUY:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:3px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+/** 公版模組layout_640_3xn_G01 **/
+.layout_640_3xn_G01  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_3xn_G01 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_3xn_G01 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_3xn_G01 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_3xn_G01 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_3xn_G01 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0; width:32%; height:auto; border: 0px; background-color:#FFF;}
+.layout_640_3xn_G01 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_3xn_G01 ul li:nth-of-type(3n+1) { margin-left:0%;}
+.layout_640_3xn_G01 ul li:nth-of-type(3n+3) { margin-right:0%;}
+.layout_640_3xn_G01 ul li:hover,
+.layout_640_3xn_G01 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_3xn_G01 ul li a { display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_3xn_G01 ul li a .imgArea { }
+.layout_640_3xn_G01 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_3xn_G01 ul li a h3 { position: absolute; top:0; right:0; margin:0; padding:5px 0 0; -webkit-box-sizing:content-box; box-sizing:content-box; width:32px; height:36px; font-size:13px; line-height:15px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#FA1D34;}
+.layout_640_3xn_G01 ul li a h3 span { display:block; font-size:13px; text-align:center;}
+.layout_640_3xn_G01 ul li a h3:after { content:""; position:absolute; top:100%; left:0; display:block;  width:0; height: 0; border: 5px solid #000; border-width:0px 16px 6px 16px; border-color: #FA1D34 #FA1D34 transparent #FA1D34;}
+.layout_640_3xn_G01 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 40px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #000;}
+.layout_640_3xn_G01 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #000;}
+.layout_640_3xn_G01 ul li a h4 br { display:none;}
+.layout_640_3xn_G01 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#d92670;}
+.layout_640_3xn_G01 ul li a p del { padding-right:2px; font-size:12px; font-family: Century Gothic; color:#5e5e5e;}
+.layout_640_3xn_G01 ul li a p b { font-size:12px; letter-spacing:-1px;}
+.layout_640_3xn_G01 ul li a p .money { font-size:12px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_3xn_G01 ul li a p .Price { font-size:20px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_3xn_G01 ul li a p small { font-size:12px; }
+.layout_640_3xn_G01 ul li a .BUY { position:relative; margin:5%; padding:0; border-radius:4px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#000; }
+.layout_640_3xn_G01 ul li a .BUY span { z-index:1; position:relative;}
+.layout_640_3xn_G01 ul li a .BUY span:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+/** 公版模組layout_640_3xn_G02 **/
+.layout_640_3xn_G02  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_3xn_G02 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_3xn_G02 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_3xn_G02 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_3xn_G02 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_3xn_G02 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0; width:32%; height:auto; border: 0px; background-color:#FFF;}
+.layout_640_3xn_G02 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_3xn_G02 ul li:nth-child(odd) { margin-left:1%;}
+.layout_640_3xn_G02 ul li:nth-child(even) { margin-right:1%;}
+.layout_640_3xn_G02 ul li:nth-of-type(3n+1) { margin-left:0%;}
+.layout_640_3xn_G02 ul li:nth-of-type(3n+3) { margin-right:0%;}
+.layout_640_3xn_G02 ul li:hover,
+.layout_640_3xn_G02 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_3xn_G02 ul li a { display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_3xn_G02 ul li a .imgArea { position:relative; }
+.layout_640_3xn_G02 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_3xn_G02 ul li a .imgArea:before { content:""; position: absolute; bottom:-45px; left:5%; width:90%; height:1px; background-color:#f2f2f2;}
+.layout_640_3xn_G02 ul li a h3 { position: absolute; top:0; right:0; margin:0; padding:3px 0 0; width:36px; height:36px; font-size:13px; line-height:14px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#FF53AC;}
+.layout_640_3xn_G02 ul li a h3 span { display:block; text-align:center;}
+.layout_640_3xn_G02 ul li a h4 { position: relative; margin:0 0 5px; padding:0 5%; width:100%; height: 40px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #000;}
+.layout_640_3xn_G02 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px; color: #000;}
+.layout_640_3xn_G02 ul li a h4 br { display:none;}
+.layout_640_3xn_G02 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#d92670;}
+.layout_640_3xn_G02 ul li a p del { padding-right:2px; font-size:12px; font-family: Century Gothic; color:#5e5e5e;}
+/**.layout_640_3xn_G02 ul li a p del:before { content:"原價"; float:left; font-size:12px;} **/
+.layout_640_3xn_G02 ul li a p b { font-size:12px; letter-spacing:-1px;}
+/**..layout_640_3xn_G02 ul li a p b:before { content:"特價";  float:left; position:relative; top:2px;} **/
+.layout_640_3xn_G02 ul li a p .money { font-size:12px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_3xn_G02 ul li a p .Price { font-size:20px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_3xn_G02 ul li a p small { font-size:12px; }
+.layout_640_3xn_G02 ul li a .BUY { clear:both; position:relative; margin:5%; padding:0; border-radius:30px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#FF53AC; }
+.layout_640_3xn_G02 ul li a .BUY span { z-index:1; position:relative;}
+.layout_640_3xn_G02 ul li a .BUY span:after  { content: ""; position:relative; top:-1px; display: inline-block; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+/** 公版模組layout_640_3xn_G03 **/
+.layout_640_3xn_G03  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_3xn_G03 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_3xn_G03 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_3xn_G03 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_3xn_G03 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_3xn_G03 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0; width:32%; height:auto; border: 0px; background-color:#FFF;}
+.layout_640_3xn_G03 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_3xn_G03 ul li:nth-child(odd) { margin-left:1%;}
+.layout_640_3xn_G03 ul li:nth-child(even) { margin-right:1%;}
+.layout_640_3xn_G03 ul li:nth-of-type(3n+1) { margin-left:0%;}
+.layout_640_3xn_G03 ul li:nth-of-type(3n+3) { margin-right:0%;}
+.layout_640_3xn_G03 ul li:hover,
+.layout_640_3xn_G03 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_3xn_G03 ul li a { position: relative; display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_3xn_G03 ul li a .imgArea { }
+.layout_640_3xn_G03 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_3xn_G03 ul li a h3 { position: absolute; bottom:0; left:0; right:0;  margin:5% 15% 5% 5%; padding:0 15% 0 10%; border-radius:44px 0 0 44px;height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px; color:#fff;background-color: #000;}
+.layout_640_3xn_G03 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 40px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #000;}
+.layout_640_3xn_G03 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #000;}
+.layout_640_3xn_G03 ul li a h4 br { display:none;}
+.layout_640_3xn_G03 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#d92670;}
+.layout_640_3xn_G03 ul li a p del { padding-right:2px; font-size:12px; font-family: Century Gothic; color:#5e5e5e;}
+.layout_640_3xn_G03 ul li a p b { font-size:12px; letter-spacing:-1px;}
+.layout_640_3xn_G03 ul li a p .money { font-size:12px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_3xn_G03 ul li a p .Price { font-size:20px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_3xn_G03 ul li a p small { font-size:12px; }
+.layout_640_3xn_G03 ul li a .BUY { position:relative; margin:5% 5% 5% 70%; padding:0; border-radius:44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#000; }
+.layout_640_3xn_G03 ul li a .BUY span { display:none;}
+.layout_640_3xn_G03 ul li a .BUY:before  { content: "搶"; color:#fff;}
+.layout_640_3xn_G03 ul li a .BUY:after  { content: ""; position:relative; top:-1px; display:none; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+	
+
+/** 公版模組layout_640_3xn_G04 **/
+.layout_640_3xn_G04  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_3xn_G04 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_3xn_G04 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_3xn_G04 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_3xn_G04 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_3xn_G04 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0; width:32%; height:auto; border: 0px; background-color:#000022;}
+.layout_640_3xn_G04 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_3xn_G04 ul li:nth-child(odd) { margin-left:1%;}
+.layout_640_3xn_G04 ul li:nth-child(even) { margin-right:1%;}
+.layout_640_3xn_G04 ul li:nth-of-type(3n+1) { margin-left:0%;}
+.layout_640_3xn_G04 ul li:nth-of-type(3n+3) { margin-right:0%;}
+.layout_640_3xn_G04 ul li:hover,
+.layout_640_3xn_G04 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_3xn_G04 ul li a { z-index: 0; position: relative; display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_3xn_G04 ul li a .imgArea { }
+.layout_640_3xn_G04 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_3xn_G04 ul li a h3 { position: absolute; bottom:0; left:0; right:0;  margin:5% 10% 5% 5%; padding:0 15% 0 0; border-radius:44px; border:1px solid #fff; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px; color:#AB2DDB; background-color:#fff;}
+.layout_640_3xn_G04 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 40px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #fff;}
+.layout_640_3xn_G04 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #fff;}
+.layout_640_3xn_G04 ul li a h4 br { display:none;}
+.layout_640_3xn_G04 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#ff0;}
+.layout_640_3xn_G04 ul li a p del { padding-right:2px; font-size:12px; font-family: Century Gothic; color:#b3b3b3;}
+.layout_640_3xn_G04 ul li a p b { font-size:12px; letter-spacing:-1px;}
+.layout_640_3xn_G04 ul li a p .money { font-size:12px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_3xn_G04 ul li a p .Price { font-size:20px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_3xn_G04 ul li a p small { font-size:12px; }
+.layout_640_3xn_G04 ul li a .BUY { display:block; position:relative; margin:5% 5% 5% 70%; padding:0; border-radius:44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#ab2ddb; }
+.layout_640_3xn_G04 ul li a .BUY span { display:none;}
+.layout_640_3xn_G04 ul li a .BUY:before  { content: "搶"; color:#fff;}
+.layout_640_3xn_G04 ul li a .BUY:after  { content: ""; position:relative; top:-1px; display:none; margin-left:5px;  width: 0; height: 0; border: 5px solid #333; border-width: 5px 0px 5px 6px; border-color: transparent transparent transparent #fff;}
+
+
+
+/** 公版模組layout_640_3xn_G05 **/
+.layout_640_3xn_G05  { position:relative; display:block; -webkit-box-sizing:border-box; box-sizing:border-box; margin: 0 auto; padding:0; width: 100%; height:auto; overflow:hidden; font-size:14px; font-family:"微軟正黑體","Microsoft JhengHei",Helvetica; }
+.layout_640_3xn_G05 * { -webkit-box-sizing:border-box; box-sizing:border-box; text-align: left;}
+.layout_640_3xn_G05 h2 { position: relative; margin:0 auto; padding:10px 0; height: auto; overflow:hidden; font-weight: bold; font-size:20px; line-height:48px; color: #fff; text-align: left; letter-spacing: -0.05em;}
+.layout_640_3xn_G05 h2 .title_bn img { width:100%; height:auto;}
+.layout_640_3xn_G05 ul { overflow:hidden; display: block; margin:0 auto; padding:0 2% 2%; width:100%; }
+.layout_640_3xn_G05 ul li { float: left; position:relative; display: inline-block; margin:0 1% 4% 1%; padding:0; width:32%; height:auto; border: 0px; background-color:#000022;}
+.layout_640_3xn_G05 ul li { box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+.layout_640_3xn_G05 ul li:nth-child(odd) { margin-left:1%;}
+.layout_640_3xn_G05 ul li:nth-child(even) { margin-right:1%;}
+.layout_640_3xn_G05 ul li:nth-of-type(3n+1) { margin-left:0%;}
+.layout_640_3xn_G05 ul li:nth-of-type(3n+3) { margin-right:0%;}
+.layout_640_3xn_G05 ul li:hover,
+.layout_640_3xn_G05 ul li:active { box-shadow:0 3px 5px 0 rgba(0,0,0,0.3);}
+.layout_640_3xn_G05 ul li a { z-index: 0; position: relative; display: inline-block; margin:0; padding:0; width:100%; height:auto; text-decoration:none; }
+.layout_640_3xn_G05 ul li a .imgArea { }
+.layout_640_3xn_G05 ul li a .imgArea img { margin:0 0 5% 0; padding:0; width:100%; height:auto;}
+.layout_640_3xn_G05 ul li a h3 { position: absolute; bottom:0; left:0; right:0; margin:5% 10% 5% 5%; padding:0 15% 0 0; border-radius:44px; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px; color:#fff; background-color:#666666;}
+.layout_640_3xn_G05 ul li a h4 { position: relative; margin:0; padding:0 5%; width:100%; height: 40px; overflow:hidden; font-weight:normal; font-size:14px; line-height:20px;  color: #fff;}
+.layout_640_3xn_G05 ul li a h4 b { position: relative; top:0px; margin:0px; padding:0px; font-weight:bold; font-size:14px; line-height:20px;;  color: #fff;}
+.layout_640_3xn_G05 ul li a h4 br { display:none;}
+.layout_640_3xn_G05 ul li a p { margin:0; padding:0 5%; height:28px; overflow:hidden; line-height:28px; color:#ff0;}
+.layout_640_3xn_G05 ul li a p del { padding-right:2px; font-size:12px; font-family: Century Gothic; color:#b3b3b3;}
+.layout_640_3xn_G05 ul li a p b { font-size:13px; letter-spacing:-1px;}
+.layout_640_3xn_G05 ul li a p .money { font-size:14px; font-weight:bold; font-family: Century Gothic; }
+.layout_640_3xn_G05 ul li a p .Price { font-size:24px; font-family: Century Gothic; letter-spacing:-1px; }
+.layout_640_3xn_G05 ul li a p small { font-size:14px; }
+.layout_640_3xn_G05 ul li a .BUY { position:relative; display:block; margin:5% 5% 5% 70%; padding:0; border-radius:0 44px 44px 0; border-left:1px solid #000022; height:30px; overflow:hidden; font-size:16px; line-height:30px; text-align:center; letter-spacing:-1px;  color:#fff; background-color:#666666;}
+.layout_640_3xn_G05 ul li a .BUY span { display:none;}
+.layout_640_3xn_G05 ul li a .BUY:before  { content: "GO"; color:#fff;}
